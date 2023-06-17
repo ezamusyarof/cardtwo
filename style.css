@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Jockey+One&display=swap');
+
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Jockey One', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#box {
+    width: 80%;
+    display: flex;
+    justify-content: center;    
+}
+
+
+#box div {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    margin: 20px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.light {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
+}
+
+
+@media (max-width: 780px) {
+    #box {
+        width: 90%;
+    }
+    img {
+        width: 140px;
+        margin: 8px;
+        border-radius: 0px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 580px) {
+    #box {
+        width: 98%;
+    }
+    img {
+        width: 100px;
+        margin: 8px;
+        border-radius: 0px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
